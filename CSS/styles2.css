@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+header{width: 100%; height: 80px;background-color: rgba(172,49,68,0.7);}
+.container{ display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;  margin: 0 auto; }
+.menu-1{ display: flex; align-items: center }
+.menu-2{align-items: center}
+.menu-1 a{ text-decoration: none; color: white; padding: 10px 10px;font-size: 15px; font-weight: 10px}
+.menu-2 a{color: white; padding: 10px 10px; font-size: 25px}
+.menu-1 a:hover{background-color:white; color:#AC3144; border-radius: 5px}
+.menu-2 a:hover{background-color:white; color:#AC3144; border-radius: 5px}
+
+#dangkythanhvien{background: url("../image/ayumi-kubo-AI2oqSS1fEg-unsplash.jpg");background-repeat: no-repeat; background-size: cover;}
+h1{color: white; font-size: 30px}
+.container1{width: 80%; padding-left:  430px; padding-top:  50px; padding-bottom: 50px }
+.box{width: 500px; height: auto; background:rgba(172,49,68,0.5); padding: 20px; border-radius: 30px; border: 2px solid #AC3144; box-shadow: 5px -5px 100px #AC3144  }
+.form-control{padding: 5px; margin-bottom: 10px; border-radius: 10px; width: 100%;border: 1.5px solid #AC3144}
+.nut{padding: 10px 10px; color: #AC3144; border:1px solid #AC3144; border-radius: 10px; background-color: white}
+.nut:hover{background-color:#AC3144; color: white}
+.nut-nhap{padding: 10px 10px; background-color:#AC3144; color: white;border: 1px; border-radius: 10px}
+.nut-nhap:hover {background-color: white; color: #AC3144}
+footer{background-color:rgba(172,49,68,0.50);color: darkred; padding: 50px}
+footer a{padding: 10px 10px; text-decoration: none; color: darkred}
+footer a:hover{color: white}
+.hsts{background-color:rgba(139,0,0,0.5); border-radius: 20px;width: 460px; padding: 10px; padding-top: 1px; padding-bottom: 1px; }
